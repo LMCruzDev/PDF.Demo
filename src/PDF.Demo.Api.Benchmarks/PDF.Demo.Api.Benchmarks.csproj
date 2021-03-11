@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+      <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.12.1" />
+      <PackageReference Include="DinkToPdf.Standard" Version="1.1.0" />
+      <PackageReference Include="HtmlRenderer.PdfSharp" Version="1.5.0.6" />
+      <PackageReference Include="NetCoreHTMLToPDF" Version="1.0.2.3" />
+    </ItemGroup>
+
+</Project>
